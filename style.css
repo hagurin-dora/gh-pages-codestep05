@@ -85,7 +85,6 @@ nav ul {
 }
 
 .nav-list li {
-  margin-top: 16px;
   margin-left: 30px;
 }
 .nav-list li a {
@@ -95,10 +94,6 @@ nav ul {
 }
 .nav-list li a:hover {
   color: #E03131;
-}
-
-.nav-list {
-  margin-right: 39px;
 }
 
 /*Menu*/
@@ -123,6 +118,9 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
 }
+#menu .menu-item dl.food {
+  margin-bottom: 55px;
+}
 #menu .menu-item dt {
   width: 87%;
   text-align: left;
@@ -133,9 +131,6 @@ nav ul {
   width: 13%;
   text-align: right;
   padding-top: 8px;
-}
-#menu .menu-item dl.food {
-  margin-bottom: 55px;
 }
 
 /*About*/

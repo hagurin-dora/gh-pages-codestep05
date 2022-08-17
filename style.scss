@@ -87,7 +87,6 @@ nav ul {
 }
 
 .nav-list li {
-  margin-top: 16px;
   margin-left: 30px;
   a {
     font-weight: bold;
@@ -97,10 +96,6 @@ nav ul {
       color: #E03131;
     }
   }
-}
-
-.nav-list {
-  margin-right: 39px;
 }
 
 /*Menu*/
@@ -123,6 +118,9 @@ nav ul {
     dl {
       display: flex;
       flex-wrap: wrap;
+      .food {
+        margin-bottom: 55px;
+      }
     }
     dt {
       width: 87%;
@@ -134,9 +132,6 @@ nav ul {
       width: 13%;
       text-align: right;
       padding-top: 8px;
-    }
-    dl.food {
-      margin-bottom: 55px;
     }
   }
 }
